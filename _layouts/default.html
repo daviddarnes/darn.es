@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+	{% include meta.html %}
+	<link href="/css/styles.css" media="all" rel="stylesheet">
+
+	{% include favicons.html %}
+</head>
+<body>
+	{% include icons.svg %}
+
+	{% include sidebar.html %}
+
+	<main class="main" role="main">
+
+		{% include header.html %}
+
+		{{ content }}
+
+		{% include footer.html %}
+
+	</main>
+
+	{% include scripts.html %}
+
+</body>

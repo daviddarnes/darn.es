@@ -1,0 +1,26 @@
+# Excluded files
+exclude:
+- README.md
+- LICENSE
+- CNAME
+
+# Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jemoji
+
+jekyll-mentions: https://twitter.com
+
+# Site info
+url: "http://darn.es"
+title: "David Darnes"
+description: "Web Designer & Front-end Developer"
+avatar: "http://github.com/daviddarnes.png"
+
+# Networks
+networks:
+  Twitter: http://twitter.com/daviddarnes
+  GitHub: http://github.com/daviddarnes
+  CodePen: http://codepen.io/daviddarnes
+  Dribbble: https://dribbble.com/daviddarnes

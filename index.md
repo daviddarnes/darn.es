@@ -8,7 +8,7 @@ I also do a **[few other things](http://david.darn.es)**. If you'd like to chat 
 
 ### Sites
 
-- Portfolio & Blog
-- Anchor Themes
-- Bit Podcast
-- Anchor Showcase
+- [Portfolio & Blog](http://david.darn.es)
+- [Anchor Themes](http://anchorthemes.com)
+- [Bit Podcast](http://bitpodcast.com)
+- [Anchor Showcase](http://anchorshowcase.com)

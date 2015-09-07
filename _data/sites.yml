@@ -1,0 +1,21 @@
+# Sites
+- link: "http://david.darn.es"
+  icon: smiley
+  title: "Portfolio & Blog"
+  colour: "#00AAAD"
+  content: "All of my design & development work along with articles and other pieces of content I've created"
+- link: "http://anchorthemes.com"
+  icon: anchor
+  title: "Anchor Themes"
+  colour: "#E36500"
+  content: "Anchor Themes is a site I created to showcase the best themes available for [Anchor CMS](http://anchorcms.com)."
+- link: "http://bitpodcast.com"
+  icon: bitpodcast
+  title: "Bit Podcast"
+  colour: "#CA5250"
+  content: "Bit Podcast is a podcast series featuring myself and [Benjamin Reid](http://benjaminreid.me) as we discuss web design, development plus games & movies on the side."
+- link: "http://anchorshowcase.com"
+  icon: anchor
+  title: "Anchor Showcase"
+  colour: "#D13361"
+  content: "Anchor Showcase is a spin-off site from Anchor Themes. I created it to showcase awesome sites built using [Anchor CMS](http://anchorcms.com)."

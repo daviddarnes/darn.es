@@ -1,0 +1,15 @@
+{% if site.data.sites %}
+        <ul class="sites-list">
+                {% for item in site.data.sites %}
+                        <li class="site-item">
+                                <svg class="icon">
+					<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
+				</svg>
+                                <h2>
+                                        <a style="color:{{ item.colour }}" href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a>
+                                </h2>
+                                {{ item.content | markdownify }}
+                        </li>
+                {% endfor %}
+        </ul>
+{% endif %}

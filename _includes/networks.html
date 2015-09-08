@@ -1,0 +1,9 @@
+{% if site.data.networks %}
+  <ul class="network-list">
+  {% for item in site.data.networks %}
+    <li class="network-item">
+      <a href="{{ item.link }}" title="{{ item.icon }}">{{ item.icon }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}

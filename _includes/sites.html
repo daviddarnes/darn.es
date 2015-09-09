@@ -1,12 +1,13 @@
 {% if site.data.sites %}
         <ul class="list  list--sites">
                 {% for item in site.data.sites %}
-                        <li class="item  item--site">
+                        <li class="item  item--site  item--{{ item.site }}">
+				<style>.item--{{ item.site }} a { color: {{ item.colour }} }</style>
                                 <svg class="icon  icon--site">
-					<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
+					<use xlink:href="#{{ item.site }}" fill="{{ item.colour }}"></use>
 				</svg>
                                 <h2>
-                                        <a style="color:{{ item.colour }}" href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a>
+                                        <a href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a>
                                 </h2>
                                 {{ item.content | markdownify }}
                         </li>

@@ -1,11 +1,8 @@
 {% if site.data.sites %}
         <ul class="list  list--sites">
                 {% for item in site.data.sites %}
-                	
-                	{{ assign item.title = class | remove: ' ' | remove: '&' | downcase }}
-                	
-                        <li class="item  item--site  item--{{ class }}">
-				<style>.item--{{ class }} a { color: {{ item.colour }} }</style>
+                        <li class="item  item--site  item--{{ item.title | handleize }}">
+				<style>.item--{{ item.title | handleize }} a { color: {{ item.colour }} }</style>
                                 <svg class="icon  icon--site">
 					<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
 				</svg>

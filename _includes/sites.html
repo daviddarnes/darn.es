@@ -5,7 +5,7 @@
                 	{{ assign item.title | remove: ' ' | remove: '&' | downcase = class }}
                 	
                         <li class="item  item--site  item--{{ class }}">
-				<style>.item--{{ site }} a { color: {{ item.colour }} }</style>
+				<style>.item--{{ class }} a { color: {{ item.colour }} }</style>
                                 <svg class="icon  icon--site">
 					<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
 				</svg>

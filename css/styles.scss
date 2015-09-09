@@ -2,6 +2,14 @@
 layout: none
 ---
 
+// Variables
+$color--link: #00AAAD;
+$color--heading: #5D5D5D;
+$color--subheading: #9D9D9D;
+$color--paragraph: #3D3D3D;
+$color--keyline: #EDEDED;
+$color--footnote: #ADADAD;
+
 // Globals & resets
 html, body {
     padding: 0;
@@ -44,14 +52,20 @@ li {
 // Typography
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: $color--paragraph;
+}
+
+h1, h2, a {
+    font-weight: 400;
 }
 
 h1 {
-    
+    color: $color--heading;
 }
 
 h2 {
-    
+   color: $color--subheading; 
 }
 
 h3 {
@@ -63,9 +77,9 @@ p {
 }
 
 a {
-    
+    color: $color--link;
 }
 
 small {
-    
+    color: $color--footnote;
 }

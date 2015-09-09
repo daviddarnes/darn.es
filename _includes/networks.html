@@ -1,8 +1,12 @@
 {% if site.data.networks %}
-        <ul class="network-list">
+        <ul class="list  list--networks">
                 {% for item in site.data.networks %}
-                        <li class="network-item">
-                                <a href="{{ item.link }}" title="{{ item.icon }}">{{ item.icon }}</a>
+                        <li class="item  item--network">
+                                <a href="{{ item.link }}" title="{{ item.icon }}">
+                                        <svg class="icon  icon--network">
+                                                <use xlink:href="#{{ item.icon }}"></use>
+                                        </svg>
+				</a>
                         </li>
                 {% endfor %}
         </ul>

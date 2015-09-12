@@ -9,19 +9,23 @@
 <body>
 	{% include icons.svg %}
 
-	{% include header.html %}
-
-	<main class="main" role="main">
-
-		{{ content }}
+	<div class="container">
 		
-		{% include networks.html %}
+		{% include header.html %}
 
-	</main>
+		<main class="main" role="main">
+
+			{{ content }}
+		
+			{% include networks.html %}
+
+		</main>
 	
-	{% include sites.html %}
+		{% include sites.html %}
 
-	{% include footer.html %}
+		{% include footer.html %}
+	
+	</div>
 
 	{% include scripts.html %}
 

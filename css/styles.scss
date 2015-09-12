@@ -32,7 +32,7 @@ html, body {
         position: absolute;
         z-index: -1;
         top: 0;
-        left: 2.25rem;
+        left: 2.75rem;
         bottom: 0;
         border-left: $width--keyline solid $color--keyline;
     }
@@ -102,6 +102,9 @@ svg {
         border: $width--keyline solid $color--keyline;
         border-radius: 100%;
         overflow: hidden;
+    }
+    &--site {
+        margin: .75rem;
     }
 }
 

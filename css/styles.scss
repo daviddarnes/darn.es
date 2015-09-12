@@ -3,6 +3,7 @@ layout: none
 ---
 
 // Variables
+$color--background: #ffffff;
 $color--link: #00AAAD;
 $color--heading: #5D5D5D;
 $color--subheading: #9D9D9D;
@@ -60,7 +61,7 @@ img {
 }
 
 .avatar {
-    width: 4rem;
+    width: 5rem;
 }
 
 svg {
@@ -100,6 +101,7 @@ svg {
     line-height: 0;
     &--circle {
         border: $width--keyline solid $color--keyline;
+        background: $color--background;
         border-radius: 100%;
         overflow: hidden;
     }

@@ -30,6 +30,7 @@ html, body {
     &:before {
         content: "";
         position: absolute;
+        z-index: -1;
         top: 0;
         left: 2.25rem;
         bottom: 0;

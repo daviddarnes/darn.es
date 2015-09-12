@@ -40,13 +40,34 @@ svg {
     
 }
 
-// List items
-ul {
-    
+// Icons
+.icon {
+    &--network {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
 }
 
-li {
-    
+// Lists
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+// Items
+.item {
+    &--network {
+        display: inline-block;
+    }
+}
+
+// Links
+.link {
+    &--icon {
+        display: inline-block;
+        line-height: 0;
+    }
 }
 
 // Typography

@@ -9,6 +9,7 @@ $color--subheading: #9D9D9D;
 $color--paragraph: #3D3D3D;
 $color--keyline: #EDEDED;
 $color--footnote: #ADADAD;
+$width--keyline: .7rem;
 
 // Globals & resets
 html, body {
@@ -16,11 +17,16 @@ html, body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 // Container
 .container {
     width: 90%;
     max-width: 640px;
     margin: 0 auto;
+    border-left: $width--keyline solid $color--keyline;
 }
 
 // Header
@@ -74,6 +80,11 @@ svg {
     &--icon {
         display: inline-block;
         line-height: 0;
+    }
+    &--circle {
+        width: 8rem;
+        border: $width--keyline solid $color--keyline;
+        border-radius: 100%;
     }
 }
 

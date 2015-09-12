@@ -9,7 +9,7 @@ $color--subheading: #9D9D9D;
 $color--paragraph: #3D3D3D;
 $color--keyline: #EDEDED;
 $color--footnote: #ADADAD;
-$width--keyline: .7rem;
+$width--keyline: .5rem;
 
 // Globals & resets
 html, body {
@@ -26,7 +26,14 @@ html, body {
     width: 90%;
     max-width: 640px;
     margin: 0 auto;
-    border-left: $width--keyline solid $color--keyline;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 2rem;
+        bottom: 0;
+        border-left: $width--keyline solid $color--keyline;
+    }
 }
 
 // Header
@@ -46,7 +53,8 @@ html, body {
 
 // Graphics
 img {
-    
+    max-width: 100%;
+    height: auto;
 }
 
 svg {
@@ -77,14 +85,13 @@ svg {
 
 // Links
 .link {
-    &--icon {
-        display: inline-block;
-        line-height: 0;
-    }
+    display: inline-block;
+    line-height: 0;
     &--circle {
-        width: 8rem;
+        width: 6rem;
         border: $width--keyline solid $color--keyline;
         border-radius: 100%;
+        overflow: hidden;
     }
 }
 

@@ -3,9 +3,11 @@
                 {% for item in site.data.sites %}
                         <li class="item  item--site  item--{{ item.title | slugify }}">
 				<style>.item--{{ item.title | slugify }} a { color: {{ item.colour }} }</style>
-                                <svg class="icon  icon--site">
-					<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
-				</svg>
+				<a class="link link--icon" href="{{ item.link }}" title="{{ item.title }}">
+                                	<svg class="icon  icon--site">
+						<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
+					</svg>
+				</a>
                                 <h2>
                                         <a href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a>
                                 </h2>

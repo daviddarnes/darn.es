@@ -41,12 +41,12 @@ html, body {
 
 // Header
 .header {
-    
+    position: relative;
 }
 
 // Content
-.main {
-    
+.content {
+    margin-left: 7rem;
 }
 
 // Footer
@@ -90,6 +90,7 @@ svg {
 
 // Items
 .item {
+    position: relative;
     &--network {
         display: inline-block;
     }
@@ -100,6 +101,9 @@ svg {
     display: inline-block;
     line-height: 0;
     &--circle {
+        position: absolute;
+        top: 0;
+        left: 0;
         border: $width--keyline solid $color--keyline;
         background: $color--background;
         border-radius: 100%;

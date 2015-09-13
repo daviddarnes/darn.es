@@ -34,9 +34,15 @@ html, body {
         z-index: -1;
         top: 0;
         left: 2.75rem;
-        bottom: 0;
+        height: 100%;
         border-left: $width--keyline solid $color--keyline;
+        animation: keyline .5s ease;
     }
+}
+
+@keyframes keyline {
+    0%  { opacity: 0; top: -100%; }
+    100%{ opacity: 1; top: 0; }
 }
 
 // Header

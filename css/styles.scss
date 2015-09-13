@@ -36,13 +36,13 @@ html, body {
         left: 2.75rem;
         height: 100%;
         border-left: $width--keyline solid $color--keyline;
-        animation: keyline .5s ease;
+        animation: keyline 1s ease;
     }
 }
 
 @keyframes keyline {
-    0%  { opacity: 0; top: -100%; }
-    100%{ opacity: 1; top: 0; }
+    0%  { top: -100%; }
+    100%{ top: 0; }
 }
 
 // Header
@@ -129,6 +129,7 @@ body {
 
 h1, h2, a {
     font-weight: 400;
+    margin-top: 0;
 }
 
 h1 {

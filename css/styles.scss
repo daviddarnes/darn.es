@@ -28,7 +28,7 @@ html, body {
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    padding: 8rem 0 1.5rem;
+    padding: 7rem 0 1.5rem;
     &:before {
         content: "";
         position: absolute;
@@ -54,6 +54,9 @@ html, body {
 // Content
 .content {
     margin-left: 7rem;
+    &--header {
+        padding-top: .5rem;
+    }
     &--main {
         margin-bottom: 5rem;
     }
@@ -62,7 +65,7 @@ html, body {
     }
     &--site {
         margin-bottom: 3rem;
-        padding-top: .5rem;
+        padding-top: .35rem;
     }
 }
 
@@ -77,7 +80,7 @@ img {
 }
 
 .avatar {
-    width: 5rem;
+    width: 4.5rem;
 }
 
 svg {
@@ -125,9 +128,10 @@ svg {
         background: $color--background;
         border-radius: 100%;
         overflow: hidden;
+        margin: 0 .25rem .25rem;
     }
     &--site {
-        margin: 0 .75rem .75rem
+        margin: 0 .75rem .75rem;
     }
 }
 

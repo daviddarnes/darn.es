@@ -24,10 +24,11 @@ html, body {
 
 // Container
 .container {
-    width: 90%;
-    max-width: 640px;
-    margin: 0 auto;
     position: relative;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 8rem 0 1rem;
     &:before {
         content: "";
         position: absolute;
@@ -53,11 +54,16 @@ html, body {
 // Content
 .content {
     margin-left: 7rem;
+    &--main {
+        margin-bottom: 5rem;
+    }
+    &--footer {
+        margin-top: 6.5rem;
+    }
 }
 
 // Footer
 .footer {
-    
 }
 
 // Graphics

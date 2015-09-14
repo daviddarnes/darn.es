@@ -28,7 +28,7 @@ html, body {
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    padding: 8rem 0 1rem;
+    padding: 8rem 0 1.5rem;
     &:before {
         content: "";
         position: absolute;
@@ -59,6 +59,10 @@ html, body {
     }
     &--footer {
         margin-top: 6.5rem;
+    }
+    &--site {
+        margin-bottom: 3rem;
+        padding-top: .5rem;
     }
 }
 
@@ -123,7 +127,7 @@ svg {
         overflow: hidden;
     }
     &--site {
-        margin: .75rem;
+        margin: 0 .75rem .75rem
     }
 }
 
@@ -137,10 +141,8 @@ body {
 }
 
 h1, h2, a {
+    margin-top: 0;
     font-weight: 400;
-    &, p {
-        margin-top: 0;
-    }
 }
 
 h1 {
@@ -160,7 +162,7 @@ h3 {
 }
 
 p {
-
+    margin-top: 0;
 }
 
 a {

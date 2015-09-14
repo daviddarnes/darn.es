@@ -105,6 +105,7 @@ svg {
     position: relative;
     &--network {
         display: inline-block;
+        margin-right: .6rem;
     }
 }
 
@@ -130,20 +131,28 @@ svg {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6rem;
     color: $color--paragraph;
 }
 
 h1, h2, a {
     font-weight: 400;
-    margin-top: 0;
+    &, p {
+        margin-top: 0;
+    }
 }
 
 h1 {
+    font-size: 2.4rem;
+    margin-bottom: .85rem;
     color: $color--heading;
 }
 
 h2 {
-   color: $color--subheading; 
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    color: $color--subheading; 
 }
 
 h3 {
@@ -151,7 +160,7 @@ h3 {
 }
 
 p {
-    
+
 }
 
 a {
@@ -160,5 +169,7 @@ a {
 }
 
 small {
+    font-size: .85rem;
+    font-weight: 400;
     color: $color--footnote;
 }

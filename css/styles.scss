@@ -18,6 +18,13 @@ html, body {
     margin: 0;
 }
 
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -29,6 +36,9 @@ html, body {
     max-width: 500px;
     margin: 0 auto;
     padding: 7rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     &:before {
         content: "";
         position: absolute;
@@ -105,6 +115,9 @@ svg {
     list-style: none;
     margin: 0;
     padding: 0;
+    &--sites {
+        flex: 1 0 auto;
+    }
 }
 
 // Items

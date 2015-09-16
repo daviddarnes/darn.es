@@ -48,7 +48,7 @@ body {
         height: 100%;
         border-left: $width--keyline solid $color--keyline;
         animation: keyline .6s ease;
-        @media (max-width: 500px;) {
+        @media (max-width: 500px) {
             left: 2rem;
         }
     }
@@ -67,7 +67,7 @@ body {
 // Content
 .content {
     margin-left: 7rem;
-    @media (max-width: 500px;) {
+    @media (max-width: 500px) {
         margin-left: 5.5rem;
     }
     &--header {
@@ -98,7 +98,7 @@ img {
 .avatar {
     width: 4.5rem;
     height: 4.5rem;
-    @media (max-width: 500px;) {
+    @media (max-width: 500px) {
         width: 3.5rem;
         height: 3.5rem;
     }
@@ -118,7 +118,7 @@ svg {
         width: 2rem;
         height: 2rem;
         margin: .7rem;
-        @media (max-width: 500px;) {
+        @media (max-width: 500px) {
             width: 1.5rem;
             height: 1.5rem;
             margin: 0.5rem;
@@ -162,7 +162,7 @@ svg {
     }
     &--site {
         margin: 0 .75rem .75rem;
-        @media (max-width: 500px;) {
+        @media (max-width: 500px) {
             margin: 0 0.5rem 0.5rem;
         }
     }

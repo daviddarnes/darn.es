@@ -18,8 +18,9 @@ html, body {
     margin: 0;
 }
 
-html{
+html {
     height: 100%;
+    text-rendering: geometricPrecision;
 }
 body {
     min-height: 100%;

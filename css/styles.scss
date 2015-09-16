@@ -39,6 +39,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    @media (max-width: 500px) {
+        padding: 2.5rem 0 1.5rem;
+    }
     &:before {
         content: "";
         position: absolute;

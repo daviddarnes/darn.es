@@ -234,13 +234,18 @@ a {
     color: $color--link;
     text-decoration: none;
     position: relative;
+    border-color: $color--link;
     &:after {
+        content: "";
         position: absolute;
-        bottom: -2px;
         left: 0;
         right: 0;
-        border-bottom: 1px solid rgba($color--link, 0.25);
-        content: "";
+        bottom: -2px;
+        border-bottom: 1px solid inherit;
+        opacity: 0.25;
+    }
+    &:hover:after {
+        opacity: 0.75;
     }
 }
 

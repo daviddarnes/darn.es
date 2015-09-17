@@ -59,6 +59,7 @@ body {
     }
     &:after {
         border: none;
+        animation: none;
         width: $width--keyline;
         background: linear-gradient(to top, rgba($color--background, 1) 1%, rgba($color--background, 0) 5%,  rgba($color--background, 0) 95%, rgba($color--background, 1) 99%);
     }

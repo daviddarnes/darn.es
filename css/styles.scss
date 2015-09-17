@@ -82,7 +82,8 @@ body {
 
 // Content
 .content {
-    margin-left: 20.4%;
+    display: block;
+    margin-left: 7rem;
     @media (max-width: 500px) {
         margin-left: 5.2rem;
     }

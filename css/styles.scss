@@ -170,7 +170,7 @@ svg {
     &--circle {
         position: absolute;
         $ie-m8: unquote("relative\0/");
-        position: $ie-m8; // For those IE8 fans out there
+        position: #{$ie-m8}; // For those IE8 fans out there
         top: 0;
         left: 0;
         border: $width--keyline solid $color--keyline;

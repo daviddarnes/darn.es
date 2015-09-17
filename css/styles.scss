@@ -185,6 +185,9 @@ svg {
             margin: 0.35rem 0.5rem 0.5rem;
         }
     }
+    &:after {
+        display: none;
+    }
 }
 
 @keyframes circle {
@@ -230,6 +233,15 @@ p {
 a {
     color: $color--link;
     text-decoration: none;
+    position: relative;
+    &:after {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        border-bottom: 1px solid rgba($color--link, 0.25);
+        content: "";
+    }
 }
 
 small {

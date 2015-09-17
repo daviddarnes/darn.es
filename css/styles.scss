@@ -58,6 +58,9 @@ body {
         }
     }
     &:after {
+        position: fixed;
+        left: 0;
+        width: 100%;
         border: none;
         animation: none;
         width: $width--keyline;

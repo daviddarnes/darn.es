@@ -64,6 +64,9 @@ body {
         border: none;
         animation: none;
         background: linear-gradient(to top, rgba($color--background, 1) 1%, rgba($color--background, 0) 5%,  rgba($color--background, 0) 95%, rgba($color--background, 1) 99%);
+        @media (max-width: 500px) {
+            position: absolute;
+        }
     }
 }
 

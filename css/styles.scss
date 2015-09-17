@@ -169,6 +169,7 @@ svg {
     line-height: 0;
     &--circle {
         position: absolute;
+        position: relative\9; // For those IE8 fans out there
         top: 0;
         left: 0;
         border: $width--keyline solid $color--keyline;

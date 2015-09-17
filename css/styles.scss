@@ -43,7 +43,8 @@ body {
     @media (max-width: 500px) {
         padding: 2.5rem 0 1.5rem;
     }
-    &:before {
+    &:before,
+    &:after {
         content: "";
         position: absolute;
         z-index: -1;
@@ -55,6 +56,11 @@ body {
         @media (max-width: 500px) {
             left: 2rem;
         }
+    }
+    &:after {
+        border: none;
+        width: $width--keyline;
+        background: linear-gradient(to top, rgba($color--background, 1) 1%, rgba($color--background, 0) 5%, rgba($color--background, 1) 99%);
     }
 }
 

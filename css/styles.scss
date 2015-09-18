@@ -251,3 +251,24 @@ small {
     font-weight: 400;
     color: $color--footnote;
 }
+
+input,
+textarea {
+    clear: both;
+    width: 100%;
+    padding: .5rem .8rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    border: 1px solid $color--keyline;
+    border-radius: 0;
+    -webkit-appearance: none;
+    transition: border .2s;
+    resize: vertical;
+    outline: none;
+    &:hover {
+        border-color: darken($color--keyline, 5%);
+    }
+    &:focus {
+        border-color: darken($color--keyline, 10%);
+    }
+}

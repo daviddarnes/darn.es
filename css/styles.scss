@@ -272,3 +272,7 @@ textarea {
         border-color: darken($color--keyline, 10%);
     }
 }
+
+input[type=submit] {
+    width: auto;
+}

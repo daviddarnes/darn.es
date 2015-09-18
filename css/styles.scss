@@ -196,7 +196,9 @@ img {
 }
 
 // Typography
-body {
+body,
+input,
+textarea {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -254,12 +256,11 @@ small {
 
 input,
 textarea {
-    clear: both;
     width: 100%;
-    padding: .5rem .8rem;
-    margin-bottom: 1rem;
-    margin-top: 0;
+    padding: .5rem .6rem;
+    margin-bottom: .8rem;
     border: 1px solid $color--keyline;
+    background: $color--background;
     border-radius: 0;
     -webkit-appearance: none;
     transition: border .2s;

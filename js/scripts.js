@@ -1,4 +1,3 @@
 // Scrambled email
-var emaillink = document.querySelectorAll('[title="my email"]');
-var email = 'me' + '@' + 'daviddarnes' + '.' + 'com';
-emaillink.setAttribute('href', 'mailto:' + email);
+var emaillink = document.querySelector('a[title="my email"');
+emaillink.setAttribute('href', 'mailto:' + 'me' + '@' + 'daviddarnes' + '.' + 'com');

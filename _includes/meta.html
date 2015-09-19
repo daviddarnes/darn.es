@@ -4,8 +4,8 @@
 
 	<!-- Title meta -->
 	<title>{{ site.title }} - {{ page.title }}</title>
-	<meta property="og:title" content="{{ page.title }}">
-	<meta name="twitter:title" content="{{ page.title }}">
+	<meta property="og:title" content="{{ site.title }}">
+	<meta name="twitter:title" content="{{ site.title }}">
 
 	{% if page.excerpt %}
 		{% assign description = page.excerpt %}

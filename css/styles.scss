@@ -257,21 +257,28 @@ small {
 input,
 textarea {
     width: 100%;
-    padding: .5rem .6rem;
-    margin-bottom: .8rem;
-    border: 1px solid $color--keyline;
-    background: $color--background;
     border-radius: 0;
     -webkit-appearance: none;
-    transition: border .2s;
     resize: vertical;
     outline: none;
+    padding: 0;
+    border: none;
+    margin-bottom: .8rem;
+    background: $color--background;
+    border-bottom: 1px solid $color--keyline;
+    transition: border .2s;
     &:hover {
-        border-color: darken($color--keyline, 5%);
-    }
-    &:focus {
         border-color: darken($color--keyline, 10%);
     }
+    &:focus {
+        border-color: darken($color--keyline, 20%);
+    }
+}
+
+textarea,
+input[type=submit] {
+    padding: .4rem .8rem;
+    border: 1px solid #EDEDED;
 }
 
 input[type=submit] {

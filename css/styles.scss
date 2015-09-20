@@ -227,6 +227,7 @@ a {
     text-decoration: none;
     position: relative;
     border-color: $color--link;
+    white-space: nowrap;
     &:after {
         content: "";
         position: absolute;

@@ -134,6 +134,14 @@ img {
             height: 1.5rem;
             margin: 0.5rem;
         }
+    &--large {
+        margin: 1.05rem;
+        width: 2.4rem;
+        height: 2.4rem;
+        @media (max-width: 500px) {
+            width: 1.4rem;
+            height: 1.4rem;
+        }
     }
 }
 

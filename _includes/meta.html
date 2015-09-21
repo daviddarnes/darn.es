@@ -2,16 +2,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Title meta -->
-	<title>{{ site.title }} - {{ page.title }}</title>
-	<meta property="og:title" content="{{ site.title }}">
-	<meta name="twitter:title" content="{{ site.title }}">
-
 	{% if page.excerpt %}
 		{% assign description = page.excerpt %}
 	{% else %}
 		{% assign description = site.description %}
 	{% endif %}
+	
+	<!-- Title meta -->
+	<title>{{ page.title }} - {{ description }}</title>
+	<meta property="og:title" content="{{ site.title }}">
+	<meta name="twitter:title" content="{{ site.title }}">
 	
 	{% if description %}
 		<!-- Description meta -->

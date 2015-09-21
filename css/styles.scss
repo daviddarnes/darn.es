@@ -147,14 +147,16 @@ img {
     &--sites,
     &--networks {
         pointer-events: none;
-        &:hover .item {
+        &:hover .content,
+        &:hover .icon {
             opacity: 0.5;
-            &:hover {
-                opacity: 1;
-            }
         }
         .item {
             pointer-events: auto;
+            &:hover .content,
+            &:hover .icon {
+                opacity: 1;
+            }
         }
     }
 }

@@ -144,6 +144,12 @@ img {
     &--sites {
         flex: 1 0 auto;
     }
+    
+    // Opacity hover transition
+    .content,
+    .icon {
+        transition: .2s;
+    }
     &--sites,
     &--networks {
         pointer-events: none;
@@ -167,10 +173,6 @@ img {
     &--network {
         display: inline-block;
         margin-right: .6rem;
-    }
-    &--site,
-    &--network {
-        transition: .2s;
     }
 }
 

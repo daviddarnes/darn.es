@@ -145,24 +145,12 @@ img {
     &--sites {
         flex: 1 0 auto;
     }
-    
-    .content,
-    .icon {
-        transition: .2s;
-    }
-    &--sites,
     &--networks {
         pointer-events: none;
-        &:hover {
-            .content,
-            .icon {
-                opacity: 0.5;
-            }
-            .item:hover {
-                .content,
-                .icon {
-                    opacity: 1;
-                }
+        &:hover .item {
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
             }
         }
         .item {
@@ -177,6 +165,7 @@ img {
     &--network {
         display: inline-block;
         margin-right: .6rem;
+        transition: .2s;
     }
 }
 

@@ -1,6 +1,7 @@
 ---
 layout: front
-title: "Web Designer & Front-end Developer"
+title: "David Darnes"
+excerpt: "Web Designer & Front-end Developer"
 ---
 
 Hi, I'm Dave, a web designer & front-end developer based in Bristol, UK. I currently work for [BaseKit](http://developers.basekit.com), an online website editing tool.

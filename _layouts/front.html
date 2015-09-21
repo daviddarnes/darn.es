@@ -2,16 +2,23 @@
 layout: default
 ---
 
-{% include header.html %}
 
-	<main class="content  content--main">
+<div class="container">
 
-		{{ content }}
+	{% include header.html %}
 
-		{% include networks.html %}
+		<main class="content  content--main">
 
-	</main>
+			{{ content }}
+
+			{% include networks.html %}
+
+		</main>
 	
-{% include sites.html %}
+	{% include sites.html %}
 
-{% include footer.html %}
+	{% include footer.html %}
+
+</div>
+
+{% include scripts.html %}

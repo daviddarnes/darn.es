@@ -145,6 +145,30 @@ img {
     &--sites {
         flex: 1 0 auto;
     }
+    
+    .content,
+    .icon {
+        transition: .2s;
+    }
+    &--sites,
+    &--networks {
+        pointer-events: none;
+        &:hover {
+            .content,
+            .icon {
+                opacity: 0.5;
+            }
+            .item:hover {
+                .content,
+                .icon {
+                    opacity: 0.5;
+                }
+            }
+        }
+        .item {
+            pointer-events: auto;
+        }
+    }
 }
 
 // Items

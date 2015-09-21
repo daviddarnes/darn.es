@@ -39,6 +39,7 @@ body {
     padding: 7rem 0 1.5rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     min-height: 100vh;
     @media (max-width: 500px) {
         padding: 2.5rem 0 1.5rem;

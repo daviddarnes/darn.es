@@ -1,7 +1,7 @@
 
 <header class="header">
 
-	<a class="link  link--circle" href="{{ page.url }}" title="{{ page.title }}">
+	<a class="link  link--circle" href="{% if page.url == "/index.html" %}/{% else %}{{ page.url }}{% endif %}" title="{{ page.title }}">
 
 		{% if page.icon %}
 			<svg class="icon  icon--site  icon--large">

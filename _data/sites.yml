@@ -1,14 +1,9 @@
 # Recent Projects
-#- link: "http://david.darn.es"
-#  icon: smiley
-#  title: "Portfolio & Blog"
-#  colour: "#00AAAD"
-#  content: "All of my design & development work along with articles and other pieces of content I've created."
 - link: "http://docs.basekit.com"
   icon: basekit
   title: "BaseKit Documentation"
   colour: "#166CCB"
-  content: "As well as developing templates I also heavily contribute to the BaseKit community. I created this documentation site using [Jekyll](http://jekyllrb.com/) in addition to a [video course for Tuts+](http://webdesign.tutsplus.com/courses/building-websites-with-basekit)."
+  content: "As well as prototyping the BaseKit UI I also heavily contribute to the community. I created this documentation site using [Jekyll](http://jekyllrb.com/) in addition to a [video course for Tuts+](http://webdesign.tutsplus.com/courses/building-websites-with-basekit)."
 - link: "http://anchorshowcase.com"
   icon: anchor
   title: "Anchor Showcase"

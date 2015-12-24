@@ -228,6 +228,9 @@ html {
     font-size: 16px;
     line-height: 1.6rem;
     color: $color--paragraph;
+    @media (max-width: 500px) {
+        line-height: 1.75rem;
+    }
 }
 
 h1, h2, h3, a {

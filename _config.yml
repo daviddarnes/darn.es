@@ -10,6 +10,13 @@ gems:
 - jekyll-mentions
 - jemoji
 
+# SCSS
+sass:
+  style: :compressed
+
+# Permalinks
+permalink: pretty
+
 jekyll-mentions: https://twitter.com
 
 # Site info

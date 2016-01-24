@@ -8,7 +8,7 @@ $color--link: #83C001;
 $color--heading: #5D5D5D;
 $color--subheading: #9D9D9D;
 $color--paragraph: #3D3D3D;
-$color--keyline: #EDEDED;
+$color--keyline: darken($color--background, 10%);
 $color--footnote: #ADADAD;
 $width--keyline: .5rem;
 
@@ -24,6 +24,7 @@ html {
 
 body {
     min-height: 100%;
+    background: $color--background;
 }
 
 * {
@@ -195,7 +196,7 @@ img {
         top: 0;
         left: 0;
         border: $width--keyline solid $color--keyline;
-        background: $color--background;
+        background: lighten($color--background, 10%);
         border-radius: 100%;
         overflow: hidden;
         margin: 0 .25rem .25rem;

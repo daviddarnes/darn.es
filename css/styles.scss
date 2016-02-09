@@ -184,22 +184,6 @@ img {
         display: inline-block;
         margin-right: .6rem;
     }
-    &--site:after {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        opacity: 0;
-        visibility: hidden;
-        transition: .2s;
-    }
-    &--site:hover:after {
-        opacity: 0.04;
-        visibility: visible;
-    }
 }
 
 // Links

@@ -153,6 +153,7 @@ img {
     padding: 0;
     &--sites {
         flex: 1 0 auto;
+        z-index: 1;
     }
     
     // Opacity hover transition
@@ -183,6 +184,21 @@ img {
     &--network {
         display: inline-block;
         margin-right: .6rem;
+    }
+    &--site:after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+    &--site:hover {
+        opacity: 0.2;
+        visibility: visible;
     }
 }
 

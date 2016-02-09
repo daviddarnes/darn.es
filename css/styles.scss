@@ -196,7 +196,7 @@ img {
         opacity: 0;
         visibility: hidden;
     }
-    &--site:hover {
+    &--site:hover:after {
         opacity: 0.2;
         visibility: visible;
     }

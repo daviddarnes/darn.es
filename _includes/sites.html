@@ -4,8 +4,10 @@
 	</div>
         <ul class="list  list--sites" id="sites">
                 {% for item in site.data.sites %}
-                        <li class="item  item--site">
-
+                        <li class="item  item--site  item--{{ item.title | slugify }}">
+				
+				<style scoped>.item--{{ item.title | slugify }}:after { background: {{ item.colour }}; }</style>
+				
 				<a class="link  link--circle  link--site" href="{{ item.link }}" title="{{ item.title }}">
                                 	<svg class="icon  icon--site">
 						<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>

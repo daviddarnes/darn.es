@@ -24,6 +24,11 @@
   title: "Residential - Land Securities"
   colour: "#D4AF78"
   content: "An online portfolio of homes in the heart of London. A development project I worked on with [Six](http://www.madebysix.com/)."
+- link: "http://www.lalc.co.uk/?cab_hide_site=true"
+  icon: lincolnshire
+  title: "LALC"
+  colour: "#D40000"
+  content: "A full website build for the Lincolnshire County Council, using WordPress as the CMS. In collaboration with [POP Branding](http://pop-branding.com/)."
 - link: "http://arjbuilders.com"
   icon: arjbuilders
   title: "ARJ Builders"

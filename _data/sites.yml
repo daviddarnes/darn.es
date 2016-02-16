@@ -24,6 +24,11 @@
   title: "Residential - Land Securities"
   colour: "#D4AF78"
   content: "An online portfolio of homes in the heart of London. A development project I worked on with [Six](http://www.madebysix.com/)."
+- link: "http://www.metropolismotorcycles.com/"
+  icon: cone
+  title: "Metropolis Motorcycles"
+  colour: "#0C3F97"
+  content: "A full rebuild for London based motorobike sellers Metropolis. As part of the [Jigowatt](http://jigowatt.co.uk/) team I instigated a full responsive rebuild and expanded their brand into [Metropolis Training](http://www.metropolismotorcycles.com/training/)."
 - link: "http://www.lalc.co.uk/?cab_hide_site=true"
   icon: lincolnshire
   title: "LALC"

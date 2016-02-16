@@ -19,6 +19,11 @@
   title: "Anchor Themes"
   colour: "#E36500"
   content: "Anchor Themes is a site I created to showcase the best themes available for [Anchor CMS](http://anchorcms.com)."
+- link: "http://residentialbylandsecurities.com/"
+  icon: ls
+  title: "Residential - Land Securities"
+  colour: "#D4AF78"
+  content: "An online portfolio of homes in the heart of London. A development project I worked on with [Six](http://www.madebysix.com/)."
 - link: "http://arjbuilders.com"
   icon: arjbuilders
   title: "ARJ Builders"

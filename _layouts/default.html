@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		{% include meta.html %}
+		<!-- General meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>{{ page.title }} - {{ page.excerpt }}</title>
+		{% seo title=false %}
+
+
 		<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
 		<link href="/css/styles.css" media="all" rel="stylesheet">
 

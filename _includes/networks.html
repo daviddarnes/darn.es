@@ -2,8 +2,8 @@
         <ul class="list  list--networks">
                 {% for item in site.data.networks %}
                         <li class="item  item--network">
-                                <a class="link  link--icon" href="{{ item.link }}" title="{{ item.icon }}" alt="{{ site.name }} on {{ item.icon }}">
-                                        <svg class="icon  icon--network">
+                                <a class="link  link--icon" href="{{ item.link }}" title="{{ item.icon }}">
+                                        <svg class="icon  icon--network" role="img">
                                                 <use xlink:href="#{{ item.icon }}"></use>
                                         </svg>
 				</a>

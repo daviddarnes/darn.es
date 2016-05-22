@@ -5,6 +5,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		{% if page.indexing == false %}
+			<meta name="robots" content="noindex">
+		{% endif %}
+		
 		{% if page.title contains site.title %}
 			<title>{{ page.title }} - {{ page.excerpt }}</title>
 			{% seo title=false %}

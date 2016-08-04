@@ -6,6 +6,8 @@ image: "https://avatars1.githubusercontent.com/u/1177460?s=600"
 
 ---
 
+## Web Designer & Front-end Developer
+
 Hi I'm Dave, a web designer & front-end developer based in Bristol.  
 I currently work at [BaseKit](http://basekit.com) as a UX & Prototype Designer.
 

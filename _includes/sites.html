@@ -6,6 +6,8 @@
                 {% for item in site.data.sites %}
                         <li class="item  item--site">
 
+				<style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
+
 				<a class="link  link--circle  link--site" href="{{ item.link }}" title="{{ item.title }}">
 					<svg class="icon  icon--site" role="img" aria-label="{{ item.title }} icon">
 						<title>{{ item.icon }}</title>
@@ -14,8 +16,6 @@
 				</a>
 
                                	<div class="content  content--site  content--{{ item.title | slugify }}">
-
-					<style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
 
 					<h2>
 						<a href="{{ item.link }}" title="{{ item.title }} site">{{ item.title }}</a>

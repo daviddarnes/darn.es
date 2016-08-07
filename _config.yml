@@ -28,8 +28,18 @@ name: "David Darnes"
 description: "Web Designer & Front-end Developer"
 logo: "https://avatars1.githubusercontent.com/u/1177460?s=300"
 
+# SEO > twitter name meta
 twitter:
-  username: daviddarnes
+  username: DavidDarnes
 
-author:
-  twitter: daviddarnes
+# SEO > site alias meta
+social:
+  links:
+    - https://twitter.com/DavidDarnes
+    - https://www.facebook.com/daviddarnes
+    - https://www.linkedin.com/in/daviddarnes
+    - https://plus.google.com/+DavidDarnes
+    - https://github.com/DavidDarnes
+
+# SEO > author meta
+author: DavidDarnes

@@ -8,7 +8,7 @@ $color--link: #83C001;
 $color--heading: #5D5D5D;
 $color--subheading: #808080;
 $color--paragraph: #3D3D3D;
-$color--keyline: darken($color--background, 10%);
+$color--keyline: fade-out($color--link, 0.85);
 $color--footnote: #8E8E8E;
 $width--keyline: .5rem;
 
@@ -56,7 +56,7 @@ h2 {
     font-size: 1.5rem;
     line-height: 1.8rem;
     margin-bottom: .5rem;
-    color: $color--subheading; 
+    color: $color--subheading;
 }
 
 h3 {
@@ -222,7 +222,7 @@ img {
     &--sites {
         flex: 1 0 auto;
     }
-    
+
     // Opacity hover transition
     .content,
     .icon {
@@ -252,6 +252,9 @@ img {
         display: inline-block;
         margin-right: .6rem;
     }
+    &:hover .link--circle {
+      transform: scale(1.15);
+    }
 }
 
 // Links
@@ -270,6 +273,7 @@ img {
         overflow: hidden;
         margin: 0 .25rem .25rem;
         animation: circle 1s ease;
+        transition: .2s;
         @media (max-width: 500px) {
             margin: 0;
         }

@@ -8,7 +8,7 @@ $color--link: #83C001;
 $color--heading: #5D5D5D;
 $color--subheading: #808080;
 $color--paragraph: #3D3D3D;
-$color--keyline: fade-out($color--link, 0.85);
+$color--keyline: fade-out($color--link, 0.75);
 $color--footnote: #8E8E8E;
 $width--keyline: .5rem;
 
@@ -74,7 +74,6 @@ a {
     color: $color--link;
     text-decoration: none;
     position: relative;
-    border-color: $color--link;
     white-space: nowrap;
     &:after {
         content: "";

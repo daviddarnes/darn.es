@@ -142,7 +142,7 @@ img {
         left: 2.75rem;
         height: 100%;
         border-left: $width--keyline solid $color--keyline;
-        animation: keyline .6s ease;
+        animation: keyline .6s ease, keylinecolor 60s infinite;
         @media (max-width: 500px) {
             left: 2rem;
         }
@@ -182,6 +182,9 @@ img {
     }
     &--main {
         margin-bottom: 5rem;
+        a {
+          animation: linkcolor 60s infinite;
+        }
     }
     &--footer {
         margin-top: 6.5rem;
@@ -276,7 +279,7 @@ img {
         border-radius: 100%;
         overflow: hidden;
         margin: 0 .25rem .25rem;
-        animation: circle 1s ease;
+        animation: circle 1s ease, keylinecolor 60s infinite;
         transition: .2s;
         @media (max-width: 500px) {
             margin: 0;
@@ -297,4 +300,20 @@ img {
     0%  { opacity: 0; transform: translate(0, -20px); }
     25% { opacity: 0; transform: translate(0, -20px); }
     100%{ opacity: 1; transform: translate(0, 0); }
+}
+
+@keyframes keylinecolor {
+  0%  { border-color: $color--keyline; }
+  25% { border-color: adjust-hue($color--keyline, 90deg); }
+  50% { border-color: adjust-hue($color--keyline, 180deg); }
+  75% { border-color: adjust-hue($color--keyline, 270deg); }
+  100%{ border-color: $color--keyline; }
+}
+
+@keyframes linkcolor {
+  0%  { color: $color--link; }
+  25% { color: adjust-hue($color--link, 90deg); }
+  50% { color: adjust-hue($color--link, 180deg); }
+  75% { color: adjust-hue($color--link, 270deg); }
+  100%{ color: $color--link; }
 }

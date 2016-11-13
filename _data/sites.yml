@@ -3,7 +3,7 @@
   icon: alembic
   title: "Alembic Jekyll Theme"
   colour: "#05bf85"
-  content: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate [theme](https://jekyllrb.com/docs/themes/) is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+  content: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate [theme](https://jekyllrb.com/docs/themes/) is designed to get the ball rolling immediately."
 - link: "http://docs.basekit.com"
   icon: basekit
   title: "BaseKit Documentation"

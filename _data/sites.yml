@@ -34,11 +34,6 @@
   title: "effect Home"
   colour: "#FF6600"
   content: "As part of the effect team I designed and built the homepage of the new site, using SVG elements and a responsive grid system of my own design."
-- link: "http://jigowatt.co.uk/work/metropolis-motorcycles/"
-  icon: cone
-  title: "Metropolis Motorcycles"
-  colour: "#0C3F97"
-  content: "During my time at [Jigowatt](http://jigowatt.co.uk/) I rebuilt the Metropolis online network from the ground up for responsive devices, in addition to creating their motorcyle training site."
 - link: "http://www.lalc.co.uk/?cab_hide_site=true"
   icon: lincolnshire
   title: "LALC"

@@ -3,7 +3,7 @@
   icon: alembic
   title: "Alembic Jekyll Theme"
   colour: "#05bf85"
-  content: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate [theme](https://jekyllrb.com/docs/themes/) is designed to get the ball rolling immediately."
+  content: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate [theme](https://jekyllrb.com/docs/themes/) is designed to give you a starting point immediately that you can build upon."
 - link: "http://docs.basekit.com"
   icon: basekit
   title: "BaseKit Documentation"
@@ -28,7 +28,7 @@
   icon: ls
   title: "Residential Land Securities"
   colour: "#D4AF78"
-  content: "An online portfolio of homes in the heart of London. I developed the front-end of the site and used WordPress as the CMS, this was in collaboration with [Six](http://www.madebysix.com/)."
+  content: "An online portfolio of homes in the heart of London. I developed the front-end of the site and used WordPress as the CMS, this was in collaboration with the agency [Six](http://www.madebysix.com/)."
 - link: "http://www.effectdigital.com/"
   icon: e
   title: "effect Home"

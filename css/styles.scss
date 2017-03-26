@@ -121,7 +121,6 @@ img {
 // Container
 .container {
     position: relative;
-    display: block;
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
@@ -160,11 +159,6 @@ img {
     }
 }
 
-@keyframes keyline {
-    0%  { top: -100%; }
-    100%{ top: 0; }
-}
-
 // Header & Contact
 .header {
     position: relative;
@@ -197,10 +191,8 @@ img {
 
 // Icons
 .icon {
-    &--network {
-        width: 1.25rem;
-        height: 1.25rem;
-    }
+    width: 1.25rem;
+    height: 1.25rem;
     &--site {
         width: 2rem;
         height: 2rem;
@@ -218,6 +210,16 @@ img {
         @media (max-width: 500px) {
             margin: .55rem;
         }
+    }
+    &--floating {
+        display: inline-block;
+        position: fixed;
+        z-index: -2;
+        left: 0;
+    		top: 100%;
+    		animation-name: float;
+    		animation-timing-function: linear;
+        fill: darken($color--background, 7%);
     }
 }
 
@@ -294,6 +296,16 @@ img {
     &:after {
         display: none;
     }
+}
+
+@keyframes keyline {
+    0%  { top: -100%; }
+    100%{ top: 0; }
+}
+
+@keyframes float {
+    0%  { transform: translateY(0); }
+    100%{ transform: translateY(calc(-100vh - 24px)); }
 }
 
 @keyframes circle {

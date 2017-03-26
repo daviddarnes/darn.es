@@ -2,9 +2,9 @@
 	<div class="content">
 		<h3>Recent Projects</h3>
 	</div>
-        <ul class="list  list--sites" id="sites">
-                {% for item in site.data.sites %}
-                        <li class="item  item--site">
+	<ul class="list  list--sites" id="sites">
+	  {% for item in site.data.sites %}
+	    <li class="item  item--site">
 
 				<a class="link  link--circle  link--site" href="{{ item.link }}" title="{{ item.title }}">
 					<svg class="icon  icon--site" role="img" aria-label="{{ item.title }} icon">
@@ -13,17 +13,17 @@
 					</svg>
 				</a>
 
-                               	<article class="content  content--site  content--{{ item.title | slugify }}">
+	   	<article class="content  content--site  content--{{ item.title | slugify }}">
 
-					<style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; }</style>
+				<style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; }</style>
 
-					<h2>
-						<a href="{{ item.link }}" title="{{ item.title }} site">{{ item.title }}</a>
-					</h2>
+				<h2>
+					<a href="{{ item.link }}" title="{{ item.title }} site">{{ item.title }}</a>
+				</h2>
 
 					{{ item.content | markdownify }}
-                                </article>
-                        </li>
-                {% endfor %}
-        </ul>
+		    </article>
+		  </li>
+		{% endfor %}
+	</ul>
 {% endif %}

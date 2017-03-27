@@ -211,16 +211,6 @@ img {
             margin: .55rem;
         }
     }
-    &--floating {
-        display: inline-block;
-        position: fixed;
-        z-index: -2;
-        left: 0;
-    		top: 100%;
-    		animation-name: float;
-    		animation-timing-function: linear;
-        fill: darken($color--background, 7%);
-    }
 }
 
 // Lists
@@ -262,7 +252,7 @@ img {
         margin-right: .6rem;
     }
     &:hover .link--circle {
-      transform: scale(1.15);
+        transform: scale(1.15);
     }
 }
 
@@ -293,7 +283,7 @@ img {
             margin: 0.35rem 0.5rem 0.5rem;
         }
     }
-    &:after {
+    &--icon:after {
         display: none;
     }
 }
@@ -301,11 +291,6 @@ img {
 @keyframes keyline {
     0%  { top: -100%; }
     100%{ top: 0; }
-}
-
-@keyframes float {
-    0%  { transform: translateY(0); }
-    100%{ transform: translateY(calc(-100vh - 24px)); }
 }
 
 @keyframes circle {

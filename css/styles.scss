@@ -8,7 +8,7 @@ $color--link: #83C001;
 $color--heading: #5D5D5D;
 $color--subheading: #808080;
 $color--paragraph: #3D3D3D;
-$color--keyline: fade-out($color--link, 0.75);
+$color--keyline: fade-out($color--link, 0.65);
 $color--footnote: #8E8E8E;
 $width--keyline: .5rem;
 
@@ -141,7 +141,7 @@ img {
         left: 2.75rem;
         height: 100%;
         border-left: $width--keyline solid $color--keyline;
-        animation: keyline .6s ease, keylinecolor 60s infinite;
+        animation: keyline .6s ease, keylinecolor 45s infinite;
         @media (max-width: 500px) {
             left: 2rem;
         }
@@ -177,7 +177,7 @@ img {
     &--main {
         margin-bottom: 5rem;
         a {
-          animation: linkcolor 60s infinite;
+          animation: linkcolor 45s infinite;
         }
     }
     &--footer {
@@ -271,7 +271,7 @@ img {
         border-radius: 100%;
         overflow: hidden;
         margin: 0 .25rem .25rem;
-        animation: circle 1s ease, keylinecolor 60s infinite;
+        animation: circle 1s ease, keylinecolor 45s infinite;
         transition: .2s;
         @media (max-width: 500px) {
             margin: 0;
@@ -301,16 +301,16 @@ img {
 
 @keyframes keylinecolor {
   0%  { border-color: $color--keyline; }
-  25% { border-color: adjust-hue($color--keyline, 90deg); }
-  50% { border-color: adjust-hue($color--keyline, 180deg); }
-  75% { border-color: adjust-hue($color--keyline, 270deg); }
+  25% { border-color: adjust-hue($color--keyline, -90deg); }
+  50% { border-color: adjust-hue($color--keyline, -180deg); }
+  75% { border-color: adjust-hue($color--keyline, -270deg); }
   100%{ border-color: $color--keyline; }
 }
 
 @keyframes linkcolor {
   0%  { color: $color--link; }
-  25% { color: adjust-hue($color--link, 90deg); }
-  50% { color: adjust-hue($color--link, 180deg); }
-  75% { color: adjust-hue($color--link, 270deg); }
+  25% { color: adjust-hue($color--link, -90deg); }
+  50% { color: adjust-hue($color--link, -180deg); }
+  75% { color: adjust-hue($color--link, -270deg); }
   100%{ color: $color--link; }
 }

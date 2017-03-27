@@ -11,4 +11,4 @@ image: "https://avatars1.githubusercontent.com/u/1177460?s=600"
 Hi I'm Dave, a Web Designer & Front-end Developer based in Bristol.  
 I currently work at [BaseKit](http://basekit.com) as a Front-end Developer.
 
-I also [write articles](https://david.darn.es/) and work on [open source projects](https://daviddarnes.github.io/). If you'd like to chat [just get in touch](http://enable-javascript.com/ "my email").
+I also [write articles](https://david.darn.es/) and work on [open source projects](https://daviddarnes.github.io/). <br/>If you'd like to chat [just get in touch](http://enable-javascript.com/ "my email").

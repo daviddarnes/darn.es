@@ -1,4 +1,9 @@
 # Recent Projects
+- link: "https://garth.darn.es/about/"
+  icon: drum
+  title: "Garth Jekyll Theme"
+  colour: "#8549FC"
+  content: "Garth is a stupidly simple theme for Jekyll, using the official [Jekyll theme method](https://jekyllrb.com/docs/themes/). Garth can be used as a Jekyll theme gem or as a 'forkable template' using [GitHub Pages](https://pages.github.com)."
 - link: "https://alembic.darn.es"
   icon: alembic
   title: "Alembic Jekyll Theme"

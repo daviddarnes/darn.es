@@ -1,4 +1,9 @@
 # Recent Projects
+- link: "https://itsminty.co.uk"
+  icon: m
+  title: "It's Minty"
+  colour: "#8BC58B"
+  content: "The personal portfolio of Stephen Minty, a motion desinger & animation director. I converted this site from a WordPress theme to a well structured and efficient static site, with the power of Jekyll and [Siteleaf](https://siteleaf.com)."
 - link: "https://garth.darn.es/about/"
   icon: drum
   title: "Garth Jekyll Theme"
@@ -29,7 +34,7 @@
   title: "Anchor Showcase"
   colour: "#D13361"
   content: "Anchor Showcase is a spin-off site from Anchor Themes. I created it to showcase awesome sites built using [Anchor CMS](http://anchorcms.com) and I continue to manage the submissions to it."
-- link: "http://residentialbylandsecurities.com/"
+- link: "http://www.madebysix.com/projects/residential-by-land-securities/#digital"
   icon: ls
   title: "Residential Land Securities"
   colour: "#D4AF78"

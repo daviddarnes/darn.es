@@ -12,7 +12,7 @@
 - link: "https://alembic.darn.es"
   icon: alembic
   title: "Alembic Jekyll Theme"
-  colour: "#05bf85"
+  colour: "#00a975"
   content: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate [theme](https://jekyllrb.com/docs/themes/) is designed to give you a starting point immediately that you can build upon."
 - link: "http://docs.basekit.com"
   icon: basekit
@@ -42,7 +42,7 @@
 - link: "http://www.effectdigital.com/"
   icon: e
   title: "effect Home"
-  colour: "#FF6600"
+  colour: "#fb6400"
   content: "As part of the effect team I designed and built the homepage of the new site, using SVG elements and a responsive grid system of my own design."
 - link: "http://www.lalc.co.uk/?cab_hide_site=true"
   icon: lincolnshire

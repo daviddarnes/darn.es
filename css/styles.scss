@@ -9,7 +9,7 @@ $color--heading: #5D5D5D;
 $color--subheading: #808080;
 $color--paragraph: #3D3D3D;
 $color--keyline: fade-out($color--link, 0.65);
-$color--footnote: #8E8E8E;
+$color--footnote: #767676;
 $width--keyline: .5rem;
 
 // Globals & resets
@@ -142,6 +142,9 @@ img {
         height: 100%;
         border-left: $width--keyline solid $color--keyline;
         animation: keyline .6s ease, keylinecolor 45s infinite;
+        @media screen and (prefers-reduced-motion: reduce) {
+          animation: none;
+        }
         @media (max-width: 500px) {
             left: 2rem;
         }
@@ -178,6 +181,9 @@ img {
         margin-bottom: 5rem;
         a {
           animation: linkcolor 45s infinite;
+          @media screen and (prefers-reduced-motion: reduce) {
+            animation: none;
+          }
         }
     }
     &--footer {
@@ -272,6 +278,9 @@ img {
         overflow: hidden;
         margin: 0 .25rem .25rem;
         animation: circle 1s ease, keylinecolor 45s infinite;
+        @media screen and (prefers-reduced-motion: reduce) {
+          animation: none;
+        }
         transition: .2s;
         @media (max-width: 500px) {
             margin: 0;

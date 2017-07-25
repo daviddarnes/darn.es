@@ -22,10 +22,11 @@ html {
     height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 1.6rem;
+    font-size: 18px;
+    line-height: 1.8rem;
     color: $color--paragraph;
     @media (max-width: 500px) {
+        font-size: 16px;
         line-height: 1.75rem;
     }
 }
@@ -122,7 +123,7 @@ img {
 .container {
     position: relative;
     width: 90%;
-    max-width: 600px;
+    max-width: 660px;
     margin: 0 auto;
     padding: 7rem 0 1.5rem;
     display: flex;

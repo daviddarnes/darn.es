@@ -8,12 +8,12 @@ $color--link: #83C001;
 $color--heading: #5D5D5D;
 $color--subheading: #808080;
 $color--paragraph: #3D3D3D;
-$color--keyline: fade-out($color--link, 0.65);
+$color--keyline: fade-out($color--link, 0.5);
 $color--footnote: #767676;
 $width--keyline: .5rem;
 
 // Globals & resets
-html, body {
+html, body, figure {
     padding: 0;
     margin: 0;
 }
@@ -68,7 +68,7 @@ h3 {
 }
 
 p {
-    margin-top: 0;
+    margin: 0 0 1rem;
 }
 
 a {
@@ -84,18 +84,26 @@ a {
         right: 0;
         border-bottom: 1px solid $color--link;
         border-color: inherit;
-        opacity: 0.25;
+        opacity: .25;
         transition: .2s;
     }
     &:hover:after {
-        opacity: 0.75;
+        opacity: .75;
     }
 }
 
-small {
+small,
+figcaption {
     font-size: .85rem;
     font-weight: 400;
     color: $color--footnote;
+}
+
+figcaption {
+  text-align: right;
+  padding: 0 1rem;
+  color: lighten($color--footnote, 15%);
+  font-weight: 300;
 }
 
 ::selection {
@@ -111,8 +119,11 @@ img {
 }
 
 .avatar {
+    position: relative;
+    z-index: 1;
     width: 4.5rem;
     height: 4.5rem;
+    border-radius: inherit;
     @media (max-width: 500px) {
         width: 3.5rem;
         height: 3.5rem;
@@ -141,21 +152,21 @@ img {
         top: 0;
         left: 2.75rem;
         height: 100%;
-        border-left: $width--keyline solid $color--keyline;
-        animation: keyline .6s ease, keylinecolor 45s infinite;
-        @media screen and (prefers-reduced-motion: reduce) {
-          animation: none;
-        }
+        border-left: $width--keyline solid var(--keyline-color, $color--keyline);
+        transition: border .6s;
         @media (max-width: 500px) {
             left: 2rem;
         }
+    }
+    &:before {
+      animation: keyline 1s ease;
+      opacity: .5;
     }
     &:after {
         position: fixed;
         left: 0;
         width: 100%;
         border: none;
-        animation: none;
         background: linear-gradient(to top, rgba($color--background, 1) 1%, rgba($color--background, 0) 5%,  rgba($color--background, 0) 95%, rgba($color--background, 1) 99%);
         @media (max-width: 500px) {
             position: absolute;
@@ -180,12 +191,6 @@ img {
     }
     &--main {
         margin-bottom: 5rem;
-        a {
-          animation: linkcolor 45s infinite;
-          @media screen and (prefers-reduced-motion: reduce) {
-            animation: none;
-          }
-        }
     }
     &--footer {
         margin-top: 6.5rem;
@@ -207,7 +212,7 @@ img {
         @media (max-width: 500px) {
             width: 1.5rem;
             height: 1.5rem;
-            margin: 0.5rem;
+            margin: .5rem;
         }
     }
     &--large {
@@ -232,6 +237,8 @@ img {
     // Opacity hover transition
     .content,
     .icon {
+        position: relative;
+        z-index: 1;
         transition: .2s;
     }
     &--sites,
@@ -239,7 +246,7 @@ img {
         pointer-events: none;
         &:hover .content,
         &:hover .icon {
-            opacity: 0.5;
+            opacity: .5;
         }
         .item {
             pointer-events: auto;
@@ -258,9 +265,25 @@ img {
         display: inline-block;
         margin-right: .6rem;
     }
-    &:hover .link--circle {
-        transform: scale(1.15);
+    &:hover .link--circle:after {
+        opacity: 0;
     }
+    &--site {
+      padding: 10vh 0;
+      &:first-of-type {
+        padding-top: 6vh;
+      }
+    }
+}
+
+.figure {
+  background: $color--background;
+  box-shadow: 0 0 .4rem .8rem $color--background;
+}
+
+.details {
+  margin-top: 1.6rem;
+  position: relative;
 }
 
 // Links
@@ -272,25 +295,33 @@ img {
         @media \0screen { display: none; } // For those IE8 fans out there
         top: 0;
         left: 0;
-        border: $width--keyline solid $color--keyline;
-        background: lighten($color--background, 10%);
+        border: $width--keyline solid var(--keyline-color, $color--keyline);
+        background: $color--background;
         box-shadow: 0 0 .4rem .25rem $color--background;
         border-radius: 100%;
-        overflow: hidden;
         margin: 0 .25rem .25rem;
-        animation: circle 1s ease, keylinecolor 45s infinite;
-        @media screen and (prefers-reduced-motion: reduce) {
-          animation: none;
-        }
-        transition: .2s;
+        transition: transform .2s, border .6s;
         @media (max-width: 500px) {
             margin: 0;
         }
+        &:after {
+            top: -$width--keyline;
+            left: -$width--keyline;
+            right: -$width--keyline;
+            bottom: -$width--keyline;
+            border: $width--keyline solid $color--background;
+            border-radius: inherit;
+            background: $color--background;
+            opacity: .5;
+        }
+        &:hover:after {
+            opacity: .5;
+        }
     }
     &--site {
-        margin: 0 0.8rem .8rem;
+        margin: 0 .8rem .8rem;
         @media (max-width: 500px) {
-            margin: 0.35rem 0.5rem 0.5rem;
+            margin: .35rem .5rem .5rem;
         }
     }
     &--icon:after {
@@ -301,26 +332,4 @@ img {
 @keyframes keyline {
     0%  { top: -100%; }
     100%{ top: 0; }
-}
-
-@keyframes circle {
-    0%  { opacity: 0; transform: translate(0, -20px); }
-    25% { opacity: 0; transform: translate(0, -20px); }
-    100%{ opacity: 1; transform: translate(0, 0); }
-}
-
-@keyframes keylinecolor {
-  0%  { border-color: $color--keyline; }
-  25% { border-color: adjust-hue($color--keyline, -90deg); }
-  50% { border-color: adjust-hue($color--keyline, -180deg); }
-  75% { border-color: adjust-hue($color--keyline, -270deg); }
-  100%{ border-color: $color--keyline; }
-}
-
-@keyframes linkcolor {
-  0%  { color: $color--link; }
-  25% { color: adjust-hue($color--link, -90deg); }
-  50% { color: adjust-hue($color--link, -180deg); }
-  75% { color: adjust-hue($color--link, -270deg); }
-  100%{ color: $color--link; }
 }

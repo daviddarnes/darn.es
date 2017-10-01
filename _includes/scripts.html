@@ -1,5 +1,22 @@
 <script type="text/javascript">
 // Scrambled email
-const emaillink = document.querySelector('a[title="my email"]');
-emaillink.setAttribute('href', 'mailto:' + 'me' + '@' + 'daviddarnes' + '.' + 'com');
+const emaillink = document.querySelector('a[title="my email"]')
+emaillink.setAttribute('href', 'mailto:' + 'me' + '@' + 'daviddarnes' + '.' + 'com')
+
+// Keyline colouring
+const items = document.querySelectorAll('.item--site')
+const list = document.querySelector('.list--sites')
+
+setColor = (listItems) => {
+	items.forEach(item => {
+		if (window.scrollY + (window.innerHeight / 2) >= item.offsetTop) {
+			document.body.style.setProperty('--keyline-color', item.getAttribute('data-color'))
+		} else if (window.scrollY + (window.innerHeight / 2) < list.offsetTop) {
+      document.body.style.removeProperty('--keyline-color')
+    }
+	})
+}
+
+window.addEventListener('scroll', () => setColor(items))
+window.addEventListener('load', () => setColor(items))
 </script>

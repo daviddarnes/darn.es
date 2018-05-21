@@ -64,7 +64,7 @@
   icon: m
   title: "It's Minty"
   colour: "#8BC58B"
-  content: "The personal portfolio of Stephen Minty, a motion desinger & animation director. I converted this site from a WordPress theme to a well structured and efficient static site with the power of Jekyll and [Siteleaf](https://siteleaf.com)."
+  content: "The personal portfolio of Stephen Minty, a motion designer & animation director. I converted this site from a WordPress theme to a well structured and efficient static site with the power of Jekyll and [Siteleaf](https://siteleaf.com)."
 - link: "http://docs.basekit.com"
   icon: basekit
   title: "BaseKit Documentation"

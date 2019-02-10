@@ -41,7 +41,7 @@
   content: "An online portfolio of homes in the heart of London. I developed the front-end of the site and used WordPress as the CMS; this was in collaboration with the agency [Six](http://www.madebysix.com/)."
   image: "/assets/images/land-securities-graphic.png"
   caption: "Sample Front-end"
-- link: "http://arjbuilders.com"
+- link: "https://web.archive.org/web/20180822052856/https://arjbuilders.com/"
   icon: arjbuilders
   title: "ARJ Builders"
   colour: "#5F7B6C"
@@ -64,7 +64,7 @@
   icon: m
   title: "It's Minty"
   colour: "#8BC58B"
-  content: "The personal portfolio of Stephen Minty, a motion desinger & animation director. I converted this site from a WordPress theme to a well structured and efficient static site with the power of Jekyll and [Siteleaf](https://siteleaf.com)."
+  content: "The personal portfolio of Stephen Minty, a motion designer & animation director. I converted this site from a WordPress theme to a well structured and efficient static site with the power of Jekyll and [Siteleaf](https://siteleaf.com)."
 - link: "http://docs.basekit.com"
   icon: basekit
   title: "BaseKit Documentation"

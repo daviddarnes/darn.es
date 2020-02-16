@@ -1,11 +1,11 @@
 # Recent Projects
-- link: "http://bitpodcast.com"
-  icon: bitpodcast
-  title: "Bit Podcast"
-  colour: "#0000FF"
-  content: "Bit Podcast is a podcast series featuring myself, [Benjamin Reid](http://benjaminreid.me) and [Jamie Gregson](http://www.jamietakes.photos/) as we discuss web design and development, plus games & movies on the side. I also provided the design for the site."
-  image: "/assets/images/bit-podcast-graphic.png"
-  caption: "Sample UI &amp; branding"
+# - link: "https://bitpodcast.com"
+#   icon: bitpodcast
+#   title: "Bit Podcast"
+#   colour: "#0000FF"
+#   content: "Bit Podcast is a podcast series featuring myself, [Benjamin Reid](http://benjaminreid.me) and [Jamie Gregson](http://www.jamietakes.photos/) as we discuss web design and development, plus games & movies on the side. I also provided the design for the site."
+#   image: "/assets/images/bit-podcast-graphic.png"
+#   caption: "Sample UI &amp; branding"
 - link: "https://alembic.darn.es"
   icon: alembic
   title: "Alembic Jekyll Theme"
@@ -20,21 +20,21 @@
   content: "Garth is a stupidly simple theme for Jekyll, using the official [Jekyll theme method](https://jekyllrb.com/docs/themes/). Garth can be used as a Jekyll theme gem or as a 'forkable template' using [GitHub Pages](https://pages.github.com)."
   image: "/assets/images/garth-theme-graphic.png"
   caption: "Sample UI"
-- link: "http://anchorthemes.com"
+- link: "https://anchorthemes.com"
   icon: anchor
   title: "Anchor Themes"
   colour: "#E36500"
   content: "Anchor Themes is a site I created to showcase the best themes available for [Anchor CMS](http://anchorcms.com). I designed, built and manage the site so that people can easily browse and use themes for Anchor CMS."
   image: "/assets/images/anchor-themes-graphic.png"
   caption: "Sample UI &amp; branding"
-- link: "http://anchorshowcase.com"
-  icon: anchor
-  title: "Anchor Showcase"
-  colour: "#D13361"
-  content: "Anchor Showcase is a spin-off site from Anchor Themes. I created it to showcase awesome sites built using [Anchor CMS](http://anchorcms.com) and I continue to manage the submissions to it."
-  image: "/assets/images/anchor-showcase-graphic.png"
-  caption: "Sample UI &amp; branding"
-- link: "http://www.madebysix.com/projects/residential-by-land-securities/#digital"
+# - link: "https://anchorshowcase.com"
+#   icon: anchor
+#   title: "Anchor Showcase"
+#   colour: "#D13361"
+#   content: "Anchor Showcase is a spin-off site from Anchor Themes. I created it to showcase awesome sites built using [Anchor CMS](http://anchorcms.com) and I continue to manage the submissions to it."
+#   image: "/assets/images/anchor-showcase-graphic.png"
+#   caption: "Sample UI &amp; branding"
+- link: "https://www.madebysix.com/projects/residential-by-land-securities/#digital"
   icon: ls
   title: "Residential Land Securities"
   colour: "#D4AF78"
@@ -48,12 +48,12 @@
   content: "A freelance project for a family-run construction company. Despite the site being almost 5 years old, I'm still very proud of it."
   image: "/assets/images/arj-builders-graphic.png"
   caption: "Desktop screenshot"
-- link: "http://www.effectdigital.com/"
-  icon: e
-  title: "effect Home"
-  colour: "#fb6400"
-  content: "As part of the [effect](http://www.effectdigital.com/) team, I designed and built the homepage of the new site, using SVG elements and a responsive grid system of my own design."
-- link: "http://www.lalc.co.uk/?cab_hide_site=true"
+# - link: "https://www.effectdigital.com/"
+#   icon: e
+#   title: "effect Home"
+#   colour: "#fb6400"
+#   content: "As part of the [effect](http://www.effectdigital.com/) team, I designed and built the homepage of the new site, using SVG elements and a responsive grid system of my own design."
+- link: "https://www.lalc.co.uk/?cab_hide_site=true"
   icon: lincolnshire
   title: "LALC"
   colour: "#D40000"
@@ -65,7 +65,7 @@
   title: "It's Minty"
   colour: "#8BC58B"
   content: "The personal portfolio of Stephen Minty, a motion designer & animation director. I converted this site from a WordPress theme to a well structured and efficient static site with the power of Jekyll and [Siteleaf](https://siteleaf.com)."
-- link: "http://docs.basekit.com"
+- link: "https://docs.basekit.com"
   icon: basekit
   title: "BaseKit Documentation"
   colour: "#166CCB"

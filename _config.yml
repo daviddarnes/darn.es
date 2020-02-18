@@ -4,6 +4,10 @@ exclude:
 - LICENSE
 - CNAME
 
+# Included files
+include:
+- _redirects
+
 # Gems
 gems:
 - jekyll-sitemap

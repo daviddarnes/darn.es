@@ -32,7 +32,7 @@
   title: "Netlify Build Plugin Ghost Markdown"
   colour: "#00C7B7"
   content: "With this plugin people can plug their Ghost install directly into any site hosted on Netlify. The plugin ustilises the Ghost Content API to convert content into the portable file format Markdown, which can be used my the majority of Static Site Generators. [Check out the demo](https://netlify-plugin-ghost-markdown-test.netlify.app/) to see it in action."
-  image: "/assets/images/netlify-plugin-ghost-markdown-graph.png"
+  image: "/assets/images/netlify-plugin-ghost-markdown-graphic.png"
   caption: "Example of markdown generation, image cloning and file caching with example resulting site"
 - link: "https://www.madebysix.com/projects/residential-by-land-securities/#digital"
   icon: ls

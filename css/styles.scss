@@ -75,20 +75,27 @@ a {
     color: $color--link;
     text-decoration: none;
     position: relative;
-    white-space: nowrap;
-    &:after {
-        content: "";
-        position: absolute;
-        bottom: -2px;
-        left: 0;
-        right: 0;
-        border-bottom: 1px solid $color--link;
-        border-color: inherit;
-        opacity: .25;
-        transition: .2s;
-    }
-    &:hover:after {
-        opacity: .75;
+    background: linear-gradient(
+        transparent 0%,
+        transparent 96%,
+        fade-out($color--background, 0.2) 96%,
+        fade-out($color--background, 0.2) 100%
+    ),
+    linear-gradient(
+        transparent 0%,
+        transparent 96%,
+        currentColor 96%,
+        currentColor 99.9%,
+        transparent 100%
+    );
+    &:hover {
+        background: linear-gradient(
+            transparent 0%,
+            transparent 96%,
+            currentColor 96%,
+            currentColor 99.9%,
+            transparent 100%
+        );
     }
 }
 

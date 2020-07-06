@@ -27,13 +27,11 @@
   content: "Anchor Themes is a site I created to showcase the best themes available for [Anchor CMS](http://anchorcms.com). I designed, built and manage the site so that people can easily browse and use themes for Anchor CMS."
   image: "/assets/images/anchor-themes-graphic.png"
   caption: "Sample UI &amp; branding"
-# - link: "https://anchorshowcase.com"
-#   icon: anchor
-#   title: "Anchor Showcase"
-#   colour: "#D13361"
-#   content: "Anchor Showcase is a spin-off site from Anchor Themes. I created it to showcase awesome sites built using [Anchor CMS](http://anchorcms.com) and I continue to manage the submissions to it."
-#   image: "/assets/images/anchor-showcase-graphic.png"
-#   caption: "Sample UI &amp; branding"
+- link: "https://github.com/daviddarnes/netlify-plugin-ghost-markdown"
+  icon: netlify
+  title: "Netlify Build Plugin Ghost Markdown"
+  colour: "#00C7B7"
+  content: "With this plugin people can plug their Ghost install directly into any site hosted on Netlify. The plugin ustilises the Ghost Content API to convert content into the portable file format Markdown, which can be used my the majority of Static Site Generators. [Check out the demo](https://netlify-plugin-ghost-markdown-test.netlify.app/) to see it in action."
 - link: "https://www.madebysix.com/projects/residential-by-land-securities/#digital"
   icon: ls
   title: "Residential Land Securities"

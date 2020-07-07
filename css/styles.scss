@@ -325,6 +325,12 @@ img {
             opacity: .5;
         }
     }
+    &:hover {
+        background: none;
+    }
+    &--circle:hover {
+        background: lighten($color--background, 10%);
+    }
     &--site {
         margin: 0 .8rem .8rem;
         @media (max-width: 500px) {

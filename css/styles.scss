@@ -297,6 +297,7 @@ img {
 .link {
     display: inline-block;
     line-height: 0;
+    background: none;
     &--circle {
         position: absolute;
         @media \0screen { display: none; } // For those IE8 fans out there

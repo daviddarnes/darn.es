@@ -31,7 +31,7 @@
   icon: ghost
   title: "Eleventy Starter Ghost"
   colour: "#15212a"
-  content: "The Eleventy Starter it designed to help developers get started with using the [Ghost Content API](https://ghost.org/changelog/jamstack/) with the popular Static Site Generator [Eleventy](https://www.11ty.dev/). The starter use nunjucks to expose Ghost site data as well as rendering pages, posts, tags and author pages. Check out [my full write up on the official Ghost blog](https://ghost.org/changelog/eleventy/)."
+  content: "The Eleventy Starter is designed to help developers build a site using the [Ghost Content API](https://ghost.org/changelog/jamstack/) with the popular Static Site Generator [Eleventy](https://www.11ty.dev/). The starter uses nunjucks to expose Ghost site data as well as rendering pages, posts, tags and author pages. Check out [my full write up on the official Ghost blog](https://ghost.org/changelog/eleventy/)."
   image: "/assets/images/eleventy-starter-ghost-graphic.png"
   caption: "Screenshot of the Eleventy Starter demo"
 - link: "https://github.com/daviddarnes/netlify-plugin-ghost-markdown"

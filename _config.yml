@@ -9,12 +9,11 @@ include:
 - _redirects
 
 # Gems
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-seo-tag
 - jemoji
-
 
 # SCSS
 sass:

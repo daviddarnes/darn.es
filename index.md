@@ -6,11 +6,11 @@ image: "https://avatars1.githubusercontent.com/u/1177460?s=600"
 
 ---
 
-## Web Designer & Front-end Developer
+## Designer, Front-end Developer & Writer
 
-Hi, my name's Dave. I'm a Web Designer and Front-end Developer based in Bristol UK, currently working at [Stackbit](https://stackbit.com) as part of the Developer Relations team.
+**Hi, my name's Dave. I'm a Freelance Designer, Front-end Developer & Writer based in Bristol UK.**
 
-With over 11 years professional experience, I've been building up my skills in design, UI development, and front-end development, working with some really exciting people like [Ghost](https://ghost.org), [Envato Tuts+](https://tutsplus.com/) and [BaseKit](https://basekit.com).
+With over 11 years professional experience, I've been building up my skills in design, UI development, and front-end development, working with some really exciting people like [Ghost](https://ghost.org), [Stackbit](https://stackbit.com), [Envato Tuts+](https://tutsplus.com/) and [BaseKit](https://basekit.com).
 
 In my spare time, I also write [articles](https://david.darn.es) and work on [open-source projects](https://daviddarnes.github.io), such as [Anchor CMS](https://github.com/anchorcms/anchor-cms) and [Alembic theme](https://alembic.darn.es).
 

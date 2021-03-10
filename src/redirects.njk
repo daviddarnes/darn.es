@@ -1,0 +1,8 @@
+---
+permalink: _redirects
+---
+{%- for post in ghost.posts -%}
+{% if post.canonical_url -%}
+/{{ post.slug}}/ {{ post.canonical_url }}
+{% endif %}
+{%- endfor -%}

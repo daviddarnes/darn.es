@@ -1,0 +1,28 @@
+---js
+{
+  pagination: {
+    data: "ghost.posts",
+    size: 1,
+    alias: "post",
+    before: function(data) {
+      return data
+        .filter((post) => post.canonical_url === null)
+        .filter((post) =>
+          post.internalTags.every((tag) => tag.slug !== "hash-personal")
+        );
+    }
+  },
+  permalink: "/{{ post.slug }}/"
+}
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block main %}
+  <article class="post flow">
+    <h1>{{ post.title }}</h1>  
+    {{ post.html | safe }}
+  </article>
+{% endblock %}

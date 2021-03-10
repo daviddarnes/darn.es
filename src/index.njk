@@ -1,0 +1,35 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+  <h1>{{ ghost.settings.title }}</h1>
+  
+  <p>{{ ghost.settings.description }}</p>
+  
+  <h2>Case studies</h2>
+  <ul>
+    {% for example in ghost.posts | filterPosts("internalTags", "hash-case-studies") %}
+      <li><a href="/{{ example.slug }}/">{{ example.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h2>Blog</h2>
+  <ul>
+    {% for post in ghost.posts | filterPosts("internalTags", "!hash-case-studies") %}
+      <li><a href="{% if post.canonical_url %}{{ post.canonical_url }}{% else %}/{{ post.slug }}/{% endif %}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h2>Pages</h2>
+  <ul>
+    {% for page in ghost.pages %}
+      <li><a href="/{{ page.slug }}/">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h2>Tags</h2>
+  <ul>
+    {% for tag in ghost.tags %}
+      <li><a href="/{{ tag.slug }}/">{{ tag.name }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}

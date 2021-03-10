@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0-canary.10",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+    "dotenv": "^8.2.0",
+    "eleventy-plugin-ghost": "^1.2.1",
+    "fs-extra": "^8.1.0",
+    "sass": "^1.32.8"
+  }
+}

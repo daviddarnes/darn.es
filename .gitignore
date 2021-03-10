@@ -1,6 +1,9 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
-**/Gemfile.lock
+# npm
+node_modules
+package-lock.json
+.env
+
+# eleventy
+dist
+.cache
+.DS_Store

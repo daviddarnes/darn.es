@@ -1,0 +1,18 @@
+---
+pagination:
+  data: ghost.pages
+  size: 1
+  alias: doc
+permalink: "/{{ doc.slug }}/"
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block title %}{{ doc.title }}{% endblock %}
+
+{% block main %}
+  <article class="page flow">
+    <h1>{{ doc.title }}</h1>  
+    {{ doc.html | safe }}
+  </article>
+{% endblock %}

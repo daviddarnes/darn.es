@@ -1,8 +1,8 @@
 # npm
-node_modules
+/node_modules
 .env
 
 # eleventy
-dist
+/dist
 .cache
 .DS_Store
